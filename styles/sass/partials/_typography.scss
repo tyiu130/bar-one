@@ -16,6 +16,11 @@ h1 {
     font-weight: 400;
     letter-spacing: 2.4px;
     margin: 0;
+    
+
+    
+    
+    
 }
 
 h3 {
@@ -25,16 +30,42 @@ h3 {
     letter-spacing: 2.6px;
     margin: 0;
     
+    
+   
+    
 }
 
-a {
-    text-decoration: none;
+.headerText {
+    h1 {
+    color:$tertiary;
+    @include fontSize(261.4);
+    
+    
+    }
+
+    h3 {
+        color:$primary;
+        line-height: 0;
+    }
 }
 
-.navBar a {
-    font-weight: 700;
-    @include fontSize(38);
-    line-height: 29px;
-    letter-spacing: 1.9px;
-}
+.navBar {
+    a {
+        font-weight: 700;
+        @include fontSize(38);
+        line-height: 29px;
+        letter-spacing: 1.9px;
 
+    }
+
+    h1 {
+        color: $primary;
+        @include fontSize(38);
+    }
+
+    .home {
+        color: $tertiary;
+    }
+
+    
+}

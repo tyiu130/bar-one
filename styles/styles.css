@@ -246,8 +246,14 @@ h3 {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
+.headerText h1 {
+  color: #FF8327;
+  font-size: 261.4px;
+  font-size: 13.07rem;
+}
+.headerText h3 {
+  color: #FFFFFF;
+  line-height: 0;
 }
 
 .navBar a {
@@ -257,7 +263,79 @@ a {
   line-height: 29px;
   letter-spacing: 1.9px;
 }
+.navBar h1 {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-size: 1.9rem;
+}
+.navBar .home {
+  color: #FF8327;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
+  color: #FFFFFF;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+header {
+  background-image: url(../../../assets/home-image-1.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header ul li {
+  padding: 10px 15px;
+}
+header .headerImg {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+  z-index: 10;
+}
+header .headerImg img {
+  height: 100%;
+}
+header .headerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 15;
+  height: 100%;
 }

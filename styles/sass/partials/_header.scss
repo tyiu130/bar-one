@@ -1,0 +1,43 @@
+header {
+    background-image: url(../../../assets/home-image-1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+
+    ul{
+        display: flex;
+        justify-content: center;
+
+        li {
+            padding: 10px 15px;
+        }
+        
+    }
+        .headerImg {
+            width: 50%;
+            position: absolute;
+            right: 0;
+            bottom: -60px;
+            z-index: 10;
+
+
+            img {
+                height: 100%;
+            }
+        }
+
+    
+        .headerText {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 15;
+            height: 100%;
+            
+
+        }
+    }
+

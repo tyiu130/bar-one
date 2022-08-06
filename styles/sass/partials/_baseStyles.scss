@@ -1,3 +1,19 @@
+.wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
+    color: $primary;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
 }
