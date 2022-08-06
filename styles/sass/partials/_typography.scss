@@ -4,3 +4,37 @@ $tertiary: #FF8327;
 $quaternary: #111010;
 $quinary: #220303;
 
+$primaryText: "Chathura";
+$secondaryText: "Tulpen One";
+
+body {
+    font-family: $primaryText;
+}
+
+h1 {
+    font-family: $secondaryText;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    margin: 0;
+}
+
+h3 {
+    @include fontSize(83.2);
+    font-weight: 700;
+    line-height: 94.7px;
+    letter-spacing: 2.6px;
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.navBar a {
+    font-weight: 700;
+    @include fontSize(38);
+    line-height: 29px;
+    letter-spacing: 1.9px;
+}
+
