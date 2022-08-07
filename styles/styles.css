@@ -237,12 +237,20 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
 h3 {
   font-size: 83.2px;
   font-size: 4.16rem;
   font-weight: 700;
   line-height: 94.7px;
   letter-spacing: 2.6px;
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
@@ -256,17 +264,21 @@ h3 {
   line-height: 0;
 }
 
+.navBar {
+  padding-bottom: 450px;
+}
 .navBar a {
   font-weight: 700;
   font-size: 38px;
   font-size: 1.9rem;
   line-height: 29px;
   letter-spacing: 1.9px;
+  text-transform: uppercase;
 }
 .navBar h1 {
   color: #FFFFFF;
-  font-size: 38px;
-  font-size: 1.9rem;
+  font-size: 60px;
+  font-size: 3rem;
 }
 .navBar .home {
   color: #FF8327;
@@ -276,6 +288,10 @@ h3 {
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
+}
+
+body {
+  background-color: #111010;
 }
 
 a {
@@ -314,13 +330,19 @@ header ul {
           justify-content: center;
 }
 header ul li {
-  padding: 10px 15px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header .headerImg {
   width: 50%;
   position: absolute;
   right: 0;
-  bottom: -60px;
+  bottom: -120px;
   z-index: 10;
 }
 header .headerImg img {

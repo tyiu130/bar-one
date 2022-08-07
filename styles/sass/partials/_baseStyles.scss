@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: $quaternary;
+}
+
 a {
     text-decoration: none;
     color: $primary;

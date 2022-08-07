@@ -15,12 +15,11 @@ h1 {
     font-family: $secondaryText;
     font-weight: 400;
     letter-spacing: 2.4px;
-    margin: 0;
-    
+    margin: 0;    
+}
 
-    
-    
-    
+h2 {
+    margin: 0;
 }
 
 h3 {
@@ -28,18 +27,17 @@ h3 {
     font-weight: 700;
     line-height: 94.7px;
     letter-spacing: 2.6px;
+    margin: 0;  
+}
+
+p {
     margin: 0;
-    
-    
-   
-    
 }
 
 .headerText {
     h1 {
     color:$tertiary;
     @include fontSize(261.4);
-    
     
     }
 
@@ -50,17 +48,20 @@ h3 {
 }
 
 .navBar {
+    padding-bottom: 450px;
+    
     a {
         font-weight: 700;
         @include fontSize(38);
         line-height: 29px;
         letter-spacing: 1.9px;
+        text-transform: uppercase;
 
     }
 
     h1 {
         color: $primary;
-        @include fontSize(38);
+        @include fontSize(60);
     }
 
     .home {
