@@ -1,0 +1,74 @@
+.plan {
+    background-color: $quinary;
+    position: relative;
+
+    .planContainer {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            width: calc(100%/2);
+        }
+        
+    }
+
+    .planText p {
+        padding-bottom: 30px;
+    }
+
+    .planText1 {
+        padding:55px 0 70px 10%;
+    }
+
+    .planText2 {
+        padding: 170px 8% 70px 0;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            text-align: right;
+        }
+
+        .planBtn {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            }  
+    }
+
+    .planImg1 {
+        position: absolute;
+        width: 100%;
+        top: -70px;
+        left: -25px;   
+    }
+
+    .planImg1Box {
+        background-color: $tertiary;
+        width: 45%;
+        height: 480px;
+        position: absolute;
+        top: 0;
+        left: 25px;
+    }
+
+    .planImg2 {
+        position: absolute;
+        width: 100%;
+        bottom: 25px;
+        right: -25px;
+    }
+
+    .planImg2Box {
+        background-color: $tertiary;
+        width: 45%;
+        height: 480px;
+        position: absolute;
+        bottom: -80px;
+        right: 25px;
+    }
+
+    
+    
+    
+}

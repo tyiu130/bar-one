@@ -39,6 +39,13 @@ p {
     
 }
 
+a {
+    @include fontSize(38);
+    font-family: $secondaryText;
+    line-height: 29px;
+    letter-spacing: 1.9px;
+}
+
 
 
 .headerText {
@@ -59,9 +66,7 @@ p {
     
     a {
         font-weight: 700;
-        @include fontSize(38);
-        line-height: 29px;
-        letter-spacing: 1.9px;
+        font-family: $primaryText;
         text-transform: uppercase;
 
     }

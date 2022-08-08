@@ -259,6 +259,14 @@ p {
   margin: 0;
 }
 
+a {
+  font-size: 38px;
+  font-size: 1.9rem;
+  font-family: "Tulpen One";
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+
 .headerText h1 {
   color: #FF8327;
   font-size: 261.4px;
@@ -274,10 +282,7 @@ p {
 }
 .navBar a {
   font-weight: 700;
-  font-size: 38px;
-  font-size: 1.9rem;
-  line-height: 29px;
-  letter-spacing: 1.9px;
+  font-family: "Chathura";
   text-transform: uppercase;
 }
 .navBar h1 {
@@ -312,6 +317,11 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.btn {
+  background-color: #BF2603;
+  padding: 5px 25px;
 }
 
 header {
@@ -411,4 +421,75 @@ header .headerText {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.plan {
+  background-color: #220303;
+  position: relative;
+}
+.plan .planContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.plan .planContainer div {
+  width: 50%;
+}
+.plan .planText p {
+  padding-bottom: 30px;
+}
+.plan .planText1 {
+  padding: 55px 0 70px 10%;
+}
+.plan .planText2 {
+  padding: 170px 8% 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.plan .planText2 h2 {
+  text-align: right;
+}
+.plan .planText2 .planBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+.plan .planImg1 {
+  position: absolute;
+  width: 100%;
+  top: -70px;
+  left: -25px;
+}
+.plan .planImg1Box {
+  background-color: #FF8327;
+  width: 45%;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 25px;
+}
+.plan .planImg2 {
+  position: absolute;
+  width: 100%;
+  bottom: 25px;
+  right: -25px;
+}
+.plan .planImg2Box {
+  background-color: #FF8327;
+  width: 45%;
+  height: 480px;
+  position: absolute;
+  bottom: -80px;
+  right: 25px;
 }
