@@ -228,6 +228,7 @@ html {
 
 body {
   font-family: "Chathura";
+  color: #FFFFFF;
 }
 
 h1 {
@@ -238,6 +239,8 @@ h1 {
 }
 
 h2 {
+  font-size: 68px;
+  font-size: 3.4rem;
   margin: 0;
 }
 
@@ -251,6 +254,8 @@ h3 {
 }
 
 p {
+  font-size: 39px;
+  font-size: 1.95rem;
   margin: 0;
 }
 
@@ -306,6 +311,7 @@ img {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -360,4 +366,49 @@ header .headerText {
           align-items: center;
   z-index: 15;
   height: 100%;
+}
+
+.about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: column;
+      -ms-flex-pack: column;
+          justify-content: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 150px 0;
+}
+.about ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: column;
+      -ms-flex-pack: column;
+          justify-content: column;
+  width: 50%;
+  padding: 0 20px;
+}
+.about .item {
+  padding-right: 10px;
+}
+.about li i {
+  background-color: #BF2603;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about i {
+  color: #FFFFFF;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

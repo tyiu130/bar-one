@@ -1,0 +1,43 @@
+.about {
+    
+    
+    .wrapper {
+        display: flex;
+        justify-content: column;
+        flex-wrap: wrap;
+        padding: 150px 0;
+       
+    }
+
+    ul {
+        display: flex;
+        justify-content: column;
+        width: calc(100%/2);
+        padding: 0 20px;
+        
+    
+    }
+
+    .item {
+        padding-right: 10px;
+    }
+
+    li i {
+        background-color: $secondary;
+        padding: 10px;
+        border-radius: 50%;
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+    }
+
+    i {
+        color: $primary;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+}

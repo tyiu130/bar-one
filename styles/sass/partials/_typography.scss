@@ -9,6 +9,8 @@ $secondaryText: "Tulpen One";
 
 body {
     font-family: $primaryText;
+    color: $primary;
+    
 }
 
 h1 {
@@ -19,6 +21,7 @@ h1 {
 }
 
 h2 {
+    @include fontSize(68);
     margin: 0;
 }
 
@@ -31,8 +34,12 @@ h3 {
 }
 
 p {
+    @include fontSize(39);
     margin: 0;
+    
 }
+
+
 
 .headerText {
     h1 {
