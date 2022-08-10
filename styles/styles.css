@@ -426,6 +426,7 @@ header .headerText {
 .plan {
   background-color: #220303;
   position: relative;
+  padding-top: 20px;
 }
 .plan .planContainer {
   display: -webkit-box;
@@ -441,10 +442,10 @@ header .headerText {
   padding-bottom: 30px;
 }
 .plan .planText1 {
-  padding: 55px 0 70px 10%;
+  padding: 90px 0 70px 10%;
 }
 .plan .planText2 {
-  padding: 170px 8% 70px 0;
+  padding: 90px 8% 70px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,29 +468,31 @@ header .headerText {
 }
 .plan .planImg1 {
   position: absolute;
-  width: 100%;
-  top: -70px;
-  left: -25px;
-}
-.plan .planImg1Box {
-  background-color: #FF8327;
   width: 45%;
-  height: 480px;
+  top: -70px;
+  left: 0;
+  z-index: 25;
+}
+.plan div.orangeBox {
   position: absolute;
   top: 0;
   left: 25px;
+  width: 45%;
+  height: 55%;
+  background: #FF8327;
 }
 .plan .planImg2 {
   position: absolute;
-  width: 100%;
-  bottom: 25px;
-  right: -25px;
+  width: 45%;
+  bottom: -120px;
+  right: 0;
+  z-index: 25;
 }
-.plan .planImg2Box {
+.plan div.orangeBox2 {
   background-color: #FF8327;
   width: 45%;
-  height: 480px;
+  height: 55%;
   position: absolute;
-  bottom: -80px;
+  bottom: -150px;
   right: 25px;
 }
