@@ -5,7 +5,7 @@
         display: flex;
         justify-content: column;
         flex-wrap: wrap;
-        padding: 150px 0;
+        padding: 150px 0 80px;
        
     }
 
@@ -37,6 +37,10 @@
         justify-content: center;
         align-items: center;
         
+    }
+
+    li:first-child {
+        margin-bottom: 200px;
     }
 
     
