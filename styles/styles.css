@@ -253,6 +253,13 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-size: 38px;
+  font-size: 1.9rem;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-size: 39px;
   font-size: 1.95rem;
@@ -578,4 +585,8 @@ header .headerText {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+footer .copyright {
+  text-align: center;
 }
