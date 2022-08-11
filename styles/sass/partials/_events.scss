@@ -1,0 +1,45 @@
+.events {
+    .wrapper {
+        display: flex;
+        position: relative;
+    }
+
+    .eventsText {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 100px;
+
+        h2 {
+            color: $tertiary;
+        }
+
+        a {
+            width: 20%;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+}
+
+.eventsImg {
+    display: flex;
+    align-items: center;
+
+    img {
+    width: 250px;
+    height: 250px;
+    }
+
+    .orangeBox {
+        background-color: $tertiary;
+        width: 250px;
+        height: 250px;
+        z-index: -10;
+        position: absolute;
+        left: -20px;
+        bottom: 90px;
+
+    }
+ 
+}

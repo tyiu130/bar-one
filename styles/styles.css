@@ -496,7 +496,7 @@ header .headerText {
   width: 45%;
   height: 55%;
   position: absolute;
-  bottom: -150px;
+  bottom: -145px;
   right: 25px;
 }
 
@@ -516,4 +516,53 @@ header .headerText {
   width: 100%;
   height: 600px;
   background-size: cover;
+}
+
+.events .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.events .eventsText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 100px;
+}
+.events .eventsText h2 {
+  color: #FF8327;
+}
+.events .eventsText a {
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.eventsImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.eventsImg img {
+  width: 250px;
+  height: 250px;
+}
+.eventsImg .orangeBox {
+  background-color: #FF8327;
+  width: 250px;
+  height: 250px;
+  z-index: -10;
+  position: absolute;
+  left: -20px;
+  bottom: 90px;
 }
