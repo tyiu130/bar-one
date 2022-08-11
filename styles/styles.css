@@ -566,3 +566,16 @@ header .headerText {
   left: -20px;
   bottom: 90px;
 }
+
+.gallery {
+  background-color: #220303;
+  padding: 100px 0;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
