@@ -3,6 +3,7 @@
 @import './partials/typography';
 @import './partials/baseStyles';
 
+// index.html
 @import './partials/header';
 @import './partials/about';
 @import './partials/plan';
@@ -11,3 +12,9 @@
 @import './partials/events';
 @import './partials/gallery';
 @import './partials/footer';
+
+// blog.html
+@import './partials/blogHeader';
+@import './partials/blogPost';
+
+// contact.html

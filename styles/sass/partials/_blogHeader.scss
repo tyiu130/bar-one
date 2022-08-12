@@ -1,0 +1,21 @@
+.blogHeader {
+    min-height: 50vh;
+    
+
+    .navBar {
+        padding-bottom:0;
+
+        .home {
+            color: $primary;
+        }
+
+        .blog {
+            color: $tertiary;
+        }
+    }
+
+    h3 {
+        padding-top: 60px;
+    }
+    
+}

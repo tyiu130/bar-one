@@ -590,3 +590,19 @@ header .headerText {
 footer .copyright {
   text-align: center;
 }
+
+.blogHeader {
+  min-height: 50vh;
+}
+.blogHeader .navBar {
+  padding-bottom: 0;
+}
+.blogHeader .navBar .home {
+  color: #FFFFFF;
+}
+.blogHeader .navBar .blog {
+  color: #FF8327;
+}
+.blogHeader h3 {
+  padding-top: 60px;
+}
