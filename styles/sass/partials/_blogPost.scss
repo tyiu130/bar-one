@@ -1,0 +1,77 @@
+// .posts {
+//     position: relative;
+
+//     .wrapper {
+//         display: flex;
+
+//         .mission {
+//             width: 35%;
+//         }
+
+//         .menu {
+//             width: 65%;
+//             z-index: 10;
+
+//             img {
+//                 width: 60%;
+//                 position: absolute;
+//                 right: 0;
+//                 top: -100px;
+//                 z-index: 15;
+//             }
+
+//             .orangeBox {
+//                 width: 60%;
+//                 height: 900px;
+//                 background-color: $tertiary;
+//                 position: absolute;
+//                 right: 20px;
+//                 top: -60px;
+//                 z-index: -10;
+//             }
+
+//             .menuText {
+//                 background-color: $quaternary;
+//                 margin-top: 670px;
+//                 padding: 50px 0 50px
+                
+                
+//             }
+//         }
+
+       
+//     }
+// }
+
+.posts {
+    display: flex;
+    position: relative;
+
+}
+
+ .mission {
+     width: 40%;
+ }
+
+ .menu {
+     width: 60%;
+     display: flex;
+
+     img {
+        width: 50%;
+        
+        position: absolute;
+        right: 0;
+        top: -100px;
+
+     }
+ }
+
+ .menuText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: $quaternary;
+    margin-top: 350px;
+    
+ }
