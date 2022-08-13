@@ -6,6 +6,7 @@
     .planContainer {
         display: flex;
         flex-wrap: wrap;
+        
 
         div {
             width: calc(100%/2);
@@ -51,7 +52,7 @@
         top: 0;
         left: 25px;
         width: 45%;
-        height: 55%;
+        min-height: 480px;
         background: $tertiary;
     }
 
@@ -74,3 +75,4 @@
     
     
 }
+

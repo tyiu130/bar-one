@@ -302,7 +302,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1920px;
   width: 90%;
   margin: 0 auto;
 }
@@ -488,7 +488,7 @@ header .headerText {
   top: 0;
   left: 25px;
   width: 45%;
-  height: 55%;
+  min-height: 480px;
   background: #FF8327;
 }
 .plan .planImg2 {
@@ -608,41 +608,94 @@ footer .copyright {
   padding-top: 60px;
 }
 
-.posts {
+.posts .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
 }
 
 .mission {
-  width: 40%;
+  width: 35%;
+  margin-top: 100px;
+}
+
+.redBox {
+  background-color: #220303;
+  width: 80%;
+}
+
+.missionImg {
+  width: 110%;
+  position: relative;
+  left: -90px;
+  top: -20px;
+}
+
+.missionText {
+  padding: 0 30px 30px;
+}
+.missionText .ourMission h2 {
+  line-height: 1;
+}
+.missionText .ourMission p {
+  line-height: 1;
+}
+.missionText .ourMission a {
+  color: #FF8327;
+  font-family: "Chathura";
+  line-height: 0.5;
+}
+
+.recentPosts {
+  padding-top: 20px;
+}
+.recentPosts ul {
+  padding-left: 10px;
+}
+.recentPosts li {
+  list-style: inside;
+  color: #BF2603;
+  line-height: 1;
+}
+.recentPosts li span {
+  color: #FFFFFF;
+  font-size: 39px;
+  font-size: 1.95rem;
 }
 
 .menu {
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 55%;
 }
-.menu img {
-  width: 50%;
-  position: absolute;
-  right: 0;
+.menu div.orangeBox {
+  width: 120%;
+  height: 95%;
+  background-color: #FF8327;
+  position: relative;
+  top: -80px;
+}
+
+.menuImg {
+  width: 104%;
+  position: relative;
+  right: -35px;
   top: -100px;
 }
 
-.menuText {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+.menuBox {
+  width: 100%;
   background-color: #111010;
-  margin-top: 350px;
+  padding: 50px 80px 50px 100px;
+  position: relative;
+  right: -15px;
+  top: -90px;
+}
+
+.menuText h2 {
+  line-height: 0.5;
+}
+.menuText h4 {
+  color: #FF8327;
+}
+.menuText p {
+  padding: 8px 0;
 }

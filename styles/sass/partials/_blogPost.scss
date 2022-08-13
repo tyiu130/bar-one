@@ -1,77 +1,110 @@
-// .posts {
-//     position: relative;
-
-//     .wrapper {
-//         display: flex;
-
-//         .mission {
-//             width: 35%;
-//         }
-
-//         .menu {
-//             width: 65%;
-//             z-index: 10;
-
-//             img {
-//                 width: 60%;
-//                 position: absolute;
-//                 right: 0;
-//                 top: -100px;
-//                 z-index: 15;
-//             }
-
-//             .orangeBox {
-//                 width: 60%;
-//                 height: 900px;
-//                 background-color: $tertiary;
-//                 position: absolute;
-//                 right: 20px;
-//                 top: -60px;
-//                 z-index: -10;
-//             }
-
-//             .menuText {
-//                 background-color: $quaternary;
-//                 margin-top: 670px;
-//                 padding: 50px 0 50px
-                
-                
-//             }
-//         }
-
-       
-//     }
-// }
-
 .posts {
-    display: flex;
-    position: relative;
 
+    .wrapper{
+        display: flex;
+        
+    }
 }
 
- .mission {
-     width: 40%;
- }
-
- .menu {
-     width: 60%;
-     display: flex;
-
-     img {
-        width: 50%;
-        
-        position: absolute;
-        right: 0;
-        top: -100px;
-
-     }
- }
-
- .menuText {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-color: $quaternary;
-    margin-top: 350px;
+.mission {
+    width: 35%;
+    margin-top: 100px;
     
- }
+}
+
+.redBox {
+    background-color: $quinary;
+    width: 80%;
+       
+}
+
+.missionImg {
+    width: 110%;
+    position: relative;
+    left: -90px;
+    top: -20px;
+}
+
+.missionText {
+    padding: 0 30px 30px;
+
+    .ourMission {
+
+        h2 {
+            line-height: 1;
+        }
+
+        p {
+            line-height: 1;
+        }
+
+        a {
+            color: $tertiary;
+            font-family: $primaryText;
+            line-height: 0.5;
+        }
+    }
+}
+
+.recentPosts {
+    padding-top: 20px;
+
+    ul {
+        padding-left: 10px;
+    }
+
+    li {
+        list-style: inside;
+        color: $secondary;
+        line-height: 1;
+
+        span {
+            color: $primary;
+            @include fontSize(39);
+        }
+        
+    }
+}
+
+.menu {
+    width: 55%;
+
+    div.orangeBox {
+        width: 120%;
+        height: 95%;
+        background-color: $tertiary;
+        position: relative;
+        top: -80px;
+    }
+}
+
+.menuImg {
+    width: 104%;
+    position: relative;
+    right: -35px;
+    top: -100px;
+}
+
+.menuBox {
+    width: 100%;
+    background-color: $quaternary;
+    padding: 50px 80px 50px 100px;
+    position: relative;
+    right: -15px;
+    top: -90px;
+    
+}
+
+.menuText {
+    h2 {
+        line-height: 0.5;
+    }
+
+    h4 {
+        color: $tertiary;
+    }
+
+    p {
+        padding: 8px 0;
+    }
+}
