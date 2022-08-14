@@ -86,10 +86,11 @@
 
         <section class="comments">
             <div class="wrapper">
-
-                <h2>Comments:</h2>
-
+                
+                <div><h2>Comments:</h2></div>
+                
                 <div class="comment comment1">
+                    
                     <div class="commentImg">
                         <img src="./assets/comment-image-1.jpg" alt="Profile picture of woman">
                     </div> <!--End of .commentImg-->
@@ -109,15 +110,15 @@
                     </div>
                 </div>
 
-                <form action="">
-                    <label for="name">Name</label>
+                <form action="" class="commentForm" name="commentForm">
+                    <label for="name" class="sr-only name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Name">
 
-                    <label for="email">Email address</label>
-                    <input type="email" id="email" name="email" placeholder="Email address">
+                    <label for="email" class="sr-only email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="Email address" >
 
-                    <label for="comment">Comment</label>
-                    <input type="text" id="comment" name="comment" placeholder="Comment">
+                    <label for="comment" class="sr-only comment">Comment</label>
+                    <input type="comment" id="comment" name="comment" placeholder="Comment" >
 
                     <button>Post Comment</button>
                     
@@ -125,5 +126,11 @@
             </div><!--End of .comment wrapper-->
         </section><!--End of .comment section-->
     </main>
+
+    <footer>
+        <div class="copyright">
+            <h4>Copyright ©  2019 HackerYou</h4>
+        </div>
+    </footer>
 </body>
 </html>

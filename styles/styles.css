@@ -264,9 +264,11 @@ p {
   font-size: 39px;
   font-size: 1.95rem;
   margin: 0;
+  line-height: 0.9;
 }
 
-a {
+a,
+button {
   font-size: 38px;
   font-size: 1.9rem;
   font-family: "Tulpen One";
@@ -302,7 +304,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1920px;
+  max-width: 1280px;
   width: 90%;
   margin: 0 auto;
 }
@@ -324,6 +326,10 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+footer {
+  background-color: #1a1a1a;
 }
 
 .btn {
@@ -698,4 +704,70 @@ footer .copyright {
 }
 .menuText p {
   padding: 8px 0;
+}
+
+.comments .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.comments .wrapper h2 {
+  padding-right: 640px;
+}
+.comments .comment {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.comments .comment img {
+  width: 90px;
+  margin-right: 20px;
+}
+.comments .comment h4 {
+  color: #FF8327;
+}
+.comments .comment1 {
+  padding-bottom: 80px;
+}
+.comments .commentForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.comments input {
+  background-color: #111010;
+  border: 0;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+.comments input[type=text], .comments input[type=email] {
+  width: 46.6315789474%;
+  padding: 0 0 20px 30px;
+  border-bottom: 1px solid #FF8327;
+}
+.comments input[type=email] {
+  margin-left: 6%;
+}
+.comments input[type=comment] {
+  width: 100%;
+  padding: 20px 0 120px 30px;
+  border: 1px solid #FF8327;
+}
+.comments button {
+  background-color: #BF2603;
+  color: #FFFFFF;
+  border: none;
+  width: 100%;
+  padding: 5px 0;
+  margin: 30px 0 60px 0;
 }
