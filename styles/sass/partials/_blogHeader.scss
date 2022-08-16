@@ -1,4 +1,5 @@
 .blogHeader {
+    background-image: url(/assets/blog-header-1.jpg);
     min-height: 50vh;
     z-index: -10;
     
@@ -14,9 +15,24 @@
             color: $tertiary;
         }
     }
+    
+ul {
+    display: flex;
+    justify-content: center;
+
+
+    li {
+        padding: 40px;
+        display: flex;
+        align-items: center;
+    }
+}
+    
 
     h3 {
         padding-top: 60px;
     }
     
 }
+
+ 

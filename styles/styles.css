@@ -337,7 +337,7 @@ footer {
   padding: 5px 25px;
 }
 
-header {
+.indexHeader {
   background-image: url(../../../assets/home-image-1.jpg);
   min-height: 100vh;
   background-size: cover;
@@ -350,7 +350,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-header ul {
+.indexHeader ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,7 +358,7 @@ header ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
-header ul li {
+.indexHeader ul li {
   padding: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,17 +367,17 @@ header ul li {
       -ms-flex-align: center;
           align-items: center;
 }
-header .headerImg {
+.indexHeader .headerImg {
   width: 50%;
   position: absolute;
   right: 0;
   bottom: -120px;
   z-index: 10;
 }
-header .headerImg img {
+.indexHeader .headerImg img {
   height: 100%;
 }
-header .headerText {
+.indexHeader .headerText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -598,6 +598,7 @@ footer .copyright {
 }
 
 .blogHeader {
+  background-image: url(/assets/blog-header-1.jpg);
   min-height: 50vh;
   z-index: -10;
 }
@@ -609,6 +610,23 @@ footer .copyright {
 }
 .blogHeader .navBar .blog {
   color: #FF8327;
+}
+.blogHeader ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogHeader ul li {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .blogHeader h3 {
   padding-top: 60px;
@@ -770,4 +788,50 @@ footer .copyright {
   width: 100%;
   padding: 5px 0;
   margin: 30px 0 60px 0;
+}
+
+.contactHeader {
+  background-image: url(/assets/contact-header-1.jpg);
+  min-height: 50vh;
+}
+.contactHeader .navBar {
+  padding-bottom: 0;
+}
+.contactHeader .navBar .home {
+  color: #FFFFFF;
+}
+.contactHeader .navBar .blog {
+  color: #FF8327;
+}
+.contactHeader ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contactHeader ul li {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactHeader h3 {
+  padding-top: 60px;
+}
+
+#contactMain .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }

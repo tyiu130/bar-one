@@ -1,0 +1,45 @@
+.contactHeader {
+    background-image: url(/assets/contact-header-1.jpg);
+    min-height: 50vh;
+    
+
+
+    .navBar {
+        padding-bottom: 0;
+
+        .home {
+            color: $primary;
+        }
+
+        .blog {
+            color: $tertiary;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+
+        li {
+            padding: 40px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+
+    h3 {
+        padding-top: 60px;
+    }
+
+}
+
+#contactMain {
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
