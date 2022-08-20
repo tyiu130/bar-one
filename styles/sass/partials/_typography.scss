@@ -17,7 +17,8 @@ h1 {
     font-family: $secondaryText;
     font-weight: 400;
     letter-spacing: 2.4px;
-    margin: 0;    
+    margin: 0;   
+    @include fontSize(261.4);
 }
 
 h2 {
@@ -80,9 +81,12 @@ button {
 
     }
 
-    h1 {
+    h2 {
         color: $primary;
+        font-weight: 400;
+        font-family: $secondaryText;
         @include fontSize(60);
+
     }
 
     .home {

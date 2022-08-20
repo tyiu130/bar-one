@@ -1,8 +1,13 @@
+
+
 .contactHeader {
     background-image: url(/assets/contact-header-1.jpg);
-    min-height: 50vh;
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+   
     
-
+    
 
     .navBar {
         padding-bottom: 0;
@@ -36,10 +41,84 @@
 }
 
 #contactMain {
-    
+
     .wrapper {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        
     }
+
+    .formOrangeBox {
+        flex-grow: 1;
+        background-color: $tertiary;
+        position: relative;
+        top: -100px;
+    }
+
+    .contactIcons {
+        flex-grow: 2;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    ul {
+        display: flex;
+
+        li:nth-child(2) {
+            padding: 0 10px;
+        }
+
+        li:nth-child(3) {
+            padding: 0 10px;
+        }
+    }
+
+    span {
+        display: block;
+    }
+
+    form {
+        background-color: $quinary;
+        padding: 55px 45px 40px;
+        position: relative;
+        top: -30px;
+        left: -20px;
+
+        button {
+            margin-bottom: 0;
+        }
+
+    }
+
+    input {
+    background-color: $quinary;
+    border: 0;
+    color: $primary;
+    margin-top: 30px;
+
+    &[type=text],
+    &[type=email] {
+        width: calc((100%/1.9) - 6%);
+        padding: 0 0 20px 30px;
+        border-bottom: 1px solid $primary;
+    }
+
+    &[type=email] {
+        margin-left: 6%;
+    }
+
+    &[type=message] {
+        width: 100%;
+        padding: 20px 0 160px 30px;
+        border: 1px solid $primary;
+    }
+    
+}
+ 
+}
+
+.contactFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
