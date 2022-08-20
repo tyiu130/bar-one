@@ -25,20 +25,18 @@
 .eventsImg {
     display: flex;
     align-items: center;
+    
 
     img {
-    width: 250px;
-    height: 250px;
+    position: relative;
+    left: 10px;
+    top: -10px;
     }
 
     .orangeBox {
         background-color: $tertiary;
-        width: 250px;
-        height: 250px;
-        z-index: -10;
-        position: absolute;
-        left: -20px;
-        bottom: 90px;
+        width: 230px;
+        height: 230px;
 
     }
  

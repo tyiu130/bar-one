@@ -1,15 +1,16 @@
 .plan {
     background-color: $quinary;
     position: relative;
-    padding-top: 20px;
 
     .planContainer {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+        
         
 
         div {
-            width: calc(100%/2);
+            width: calc(100%/2.2);
         }
         
     }
@@ -19,11 +20,14 @@
     }
 
     .planText1 {
-        padding:90px 0 70px 10%;
+        padding-right:12%;
+        margin-top: 120px;
+       
     }
 
     .planText2 {
-        padding: 90px 8% 70px 0;
+        padding-left: 12%;
+        margin-top: 130px;
         display: flex;
         flex-direction: column;
 
@@ -38,41 +42,39 @@
             }  
     }
 
+    .orangeBox {
+        background-color: $tertiary;
+        position: relative;
+        
+    }
+
+    .Box1 {
+        margin-left: 20px;
+        top: -25px;
+    }
 
     .planImg1 {
-        position: absolute;
-        width: 45%;
-        top: -70px;
-        left: 0;
-        z-index: 25;
+        position: relative;
+        min-height: 400px;
+        top: -28px;
+        left: -20px;
     }
-    
-    div.orangeBox {
-        position: absolute;
-        top: 0;
-        left: 25px;
-        width: 45%;
-        min-height: 480px;
-        background: $tertiary;
+
+    .Box2 {
+        margin-right: 20px;
+        bottom: -80px;
+        
     }
 
     .planImg2 {
-        position: absolute;
-        width: 45%;
-        bottom: -125px;
-        right: 0;
-        z-index: 25;
+        position: relative;
+        min-height: 400px;
+        top: -28px;
+        right: -20px;
     }
 
-    div.orangeBox2 {
-        background-color: $tertiary;
-        width: 45%;
-        height: 55%;
-        position: absolute;
-        bottom: -145px;
-        right: 25px;
-    }
-    
+
+  
     
 }
 
