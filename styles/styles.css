@@ -296,15 +296,17 @@ button {
   font-family: "Chathura";
   text-transform: uppercase;
 }
+.navBar a:hover, .navBar a:focus {
+  color: #FF8327;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 .navBar h2 {
   color: #FFFFFF;
   font-weight: 400;
   font-family: "Tulpen One";
   font-size: 60px;
   font-size: 3rem;
-}
-.navBar .home {
-  color: #FF8327;
 }
 
 .wrapper {
@@ -340,6 +342,12 @@ footer {
   background-color: #BF2603;
   padding: 5px 25px;
 }
+.btn:hover, .btn:focus {
+  background-color: #FFFFFF;
+  color: #FF8327;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 
 button {
   background-color: #BF2603;
@@ -348,6 +356,12 @@ button {
   width: 100%;
   padding: 5px 0;
   margin: 30px 0 60px 0;
+}
+button:hover, button:focus {
+  background-color: #FFFFFF;
+  color: #FF8327;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .indexHeader {
@@ -596,9 +610,11 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.gallery ul img {
+  width: 98%;
 }
 
 footer .copyright {
@@ -612,12 +628,6 @@ footer .copyright {
 }
 .blogHeader .navBar {
   padding-bottom: 0;
-}
-.blogHeader .navBar .home {
-  color: #FFFFFF;
-}
-.blogHeader .navBar .blog {
-  color: #FF8327;
 }
 .blogHeader ul {
   display: -webkit-box;
@@ -799,12 +809,6 @@ footer .copyright {
 .contactHeader .navBar {
   padding-bottom: 0;
 }
-.contactHeader .navBar .home {
-  color: #FFFFFF;
-}
-.contactHeader .navBar .blog {
-  color: #FF8327;
-}
 .contactHeader ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -902,4 +906,25 @@ footer .copyright {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 1160px) {
+  .plan .planImg1,
+.plan .planImg2 {
+    min-height: 200px;
+  }
+  .plan .planText1 {
+    margin-top: 0;
+  }
+  .plan .planText2 {
+    margin-top: 0;
+  }
+  .banner {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 370px;
+  }
+  .events .eventsText a {
+    width: 31%;
+  }
 }

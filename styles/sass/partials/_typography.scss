@@ -79,6 +79,12 @@ button {
         font-family: $primaryText;
         text-transform: uppercase;
 
+        &:hover,
+        &:focus {
+            color: $tertiary;
+            transition: 0.3s;
+        }
+
     }
 
     h2 {
@@ -89,9 +95,6 @@ button {
 
     }
 
-    .home {
-        color: $tertiary;
-    }
-
+    
     
 }

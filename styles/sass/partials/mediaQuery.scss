@@ -1,0 +1,35 @@
+@media (max-width: 1160px) {
+    .plan {
+
+        .planImg1,
+        .planImg2 {
+                min-height: 200px;
+            }
+
+        .planText1 {
+            margin-top: 0;
+        }
+
+        .planText2 {
+            margin-top: 0;
+        }
+    }
+
+    .banner {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 370px;
+    }
+
+    .events {
+        .eventsText {
+            a {
+                width: 31%; 
+            }
+        }
+    }
+}
+
+@media (max-width: 1019px) {
+
+}
