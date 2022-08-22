@@ -1056,6 +1056,53 @@ footer .copyright {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .blogHeader h3 {
+    font-size: 268px;
+    font-size: 13.4rem;
+    padding-top: 150px;
+  }
+  .posts .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mission {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .missionImg {
+    width: 100%;
+    left: -100px;
+  }
+  .menu {
+    width: 100%;
+  }
+  .menu div.orangeBox {
+    width: 100%;
+    margin-top: 230px;
+  }
+  .menuBox {
+    width: 100%;
+    padding: 30px;
+    top: -50px;
+  }
+  .comments .wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comments .wrapper h2 {
+    padding-right: 0;
+  }
+  .comments .comment {
+    width: 100%;
+  }
 }
 @media (max-width: 550px) {
   .indexHeader .headerImg {
