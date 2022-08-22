@@ -39,7 +39,7 @@ footer {
     }
 }
 
-button {
+.formButton {
     background-color: $secondary;
     color: $primary;
     border: none;
@@ -52,5 +52,76 @@ button {
         background-color: $primary;
         color: $tertiary;
         transition: 0.3s;
+    }
+}
+
+.navBar {
+    padding-bottom: 450px;
+
+    a {
+        font-weight: 700;
+        font-family: $primaryText;
+        text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+            color: $tertiary;
+            transition: 0.3s;
+        }
+
+    }
+
+    h2 {
+        color: $primary;
+        font-weight: 400;
+        font-family: $secondaryText;
+        @include fontSize(60);
+
+    }
+
+}
+
+ #hamburger {
+     background-color: black;
+     color: $primary;
+     border: none;
+     margin: 60px 0 0 40px;
+     position: absolute;
+     visibility: hidden;
+ }
+
+.slideOutNav {
+    position: fixed;
+    width: 50%;
+    max-width: 500px;
+    height: 100%;
+    background-color: $quaternary;
+    z-index: 30;
+    transform: 0.3s;
+    left: -500px;
+
+
+    button {
+        background-color: $quaternary;
+        color: $primary;
+        border: none;
+        margin: 40px 0 0 40px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            @include fontSize(60);
+            font-family: $primaryText;
+            text-transform: uppercase;
+            
+            &:hover,
+            &:focus {
+                    color: $tertiary;
+                    transition: 0.3s;
+                }
+        }
     }
 }

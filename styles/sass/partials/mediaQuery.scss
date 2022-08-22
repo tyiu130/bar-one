@@ -1,4 +1,5 @@
 @media (max-width: 1160px) {
+//index.html
     .plan {
 
         .planImg1,
@@ -16,8 +17,7 @@
     }
 
     .banner {
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-position-x: center;
         height: 370px;
     }
 
@@ -31,5 +31,151 @@
 }
 
 @media (max-width: 1019px) {
+//index.html
+    .plan {
+        .planContainer {
+        flex-direction: column;
+        
+            div {
+                width: 100%;
+            }
+    
+        }
 
+        .planText1 {
+            padding-right: 0;
+            text-align: center;
+        }
+    
+        .planText2 {
+            padding-left: 0;
+            padding-top: 50px;
+            text-align: center;
+    
+            h2 {
+                text-align: center;
+            }
+    
+            .planBtn {
+                justify-content: center;
+                align-items: center;
+    
+            }
+        }
+
+        .planImg1,
+        .planImg2 {
+            width: 100%;
+        }
+    }
+    
+
+    .host {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .events {
+        .eventsText {
+            padding-top: 0;
+            padding-right: 0;
+
+            a {
+                width: 35%; 
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .indexHeader {
+            .headerImg {
+                position: relative;
+                right: 0;
+                width: 550px;
+            }
+        }
+    
+    #hamburger {
+        visibility: visible;
+    }
+
+    .navBar {
+        padding-bottom: 300px;
+    }
+
+    .navBar ul {
+        display: none;
+    }
+
+    .events {
+        .wrapper {
+            flex-direction: column;
+        }
+
+        .eventsText {
+            padding: 0;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+
+    .eventsImg {
+        justify-content: center;
+    }
+   
+}
+
+@media (max-width: 550px) {
+
+    //index.html 
+    .indexHeader {
+        .headerImg {
+            position: relative;
+            left: 0;
+            width: 550px;
+        }
+    }
+
+    .about {
+        .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+
+        ul {
+        width: 100%;
+        }
+    }
+
+    .banner {
+        background-position-x: right;
+
+    }
+    .events {
+        .eventsText {
+            padding-bottom: 50px;
+            text-align: center;
+
+            a {
+                width: 38%;
+            }
+        }
+    }
+    .eventsImg {
+        margin-top: 50px;
+    }
+
+    .gallery {
+        ul {
+            flex-direction: column;
+
+            li:nth-child(2) {
+                padding: 20px 0;
+            }
+        }
+    }
 }

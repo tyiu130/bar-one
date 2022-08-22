@@ -71,30 +71,4 @@ button {
     }
 }
 
-.navBar {
-    padding-bottom: 450px;
-    
-    a {
-        font-weight: 700;
-        font-family: $primaryText;
-        text-transform: uppercase;
 
-        &:hover,
-        &:focus {
-            color: $tertiary;
-            transition: 0.3s;
-        }
-
-    }
-
-    h2 {
-        color: $primary;
-        font-weight: 400;
-        font-family: $secondaryText;
-        @include fontSize(60);
-
-    }
-
-    
-    
-}
