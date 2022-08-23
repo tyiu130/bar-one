@@ -317,6 +317,12 @@ footer {
   background-color: #1a1a1a;
 }
 
+.logo {
+  visibility: hidden;
+  font-size: 60px;
+  font-size: 3rem;
+}
+
 .btn {
   background-color: #BF2603;
   padding: 5px 25px;
@@ -368,7 +374,7 @@ footer {
   background-color: black;
   color: #FFFFFF;
   border: none;
-  margin: 60px 0 0 40px;
+  margin: 60px 0 0 5px;
   position: absolute;
   visibility: hidden;
 }
@@ -1019,6 +1025,24 @@ footer .copyright {
   .events .eventsText a {
     width: 35%;
   }
+  #contactMain .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contactMain .contactIcons {
+    text-align: center;
+  }
+  #contactMain ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+  }
+  #contactMain .contactText {
+    margin-bottom: 150px;
+  }
 }
 @media (max-width: 768px) {
   .indexHeader .headerImg {
@@ -1057,8 +1081,8 @@ footer .copyright {
             justify-content: center;
   }
   .blogHeader h3 {
-    font-size: 268px;
-    font-size: 13.4rem;
+    font-size: 150px;
+    font-size: 7.5rem;
     padding-top: 150px;
   }
   .posts .wrapper {
@@ -1102,6 +1126,29 @@ footer .copyright {
   }
   .comments .comment {
     width: 100%;
+  }
+  .logo {
+    visibility: visible;
+  }
+  .contactHeader h3 {
+    font-size: 150px;
+    font-size: 7.5rem;
+    padding-top: 150px;
+  }
+  #contactMain form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contactMain input[type=text], #contactMain input[type=email] {
+    width: 100%;
+  }
+  #contactMain input[type=email] {
+    margin-left: 0;
   }
 }
 @media (max-width: 550px) {

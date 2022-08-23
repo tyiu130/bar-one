@@ -85,6 +85,30 @@
             }
         }
     }
+
+//contact.html
+
+#contactMain {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .contactIcons {
+        text-align: center;
+        
+    }
+
+    ul {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .contactText {
+        margin-bottom: 150px;
+    }
+
+    
+}
 }
 
 
@@ -130,7 +154,7 @@
 
     .blogHeader {
         h3 {
-            @include fontSize(268);
+            @include fontSize(150);
             padding-top: 150px;
         }
     }
@@ -178,6 +202,39 @@
     .comment {
         width: 100%;
     }
+   }
+
+   //contact.html
+
+   .logo {
+    visibility: visible;
+   }
+
+   .contactHeader {
+    
+        h3 {
+                @include fontSize(150);
+                padding-top: 150px;
+            }
+    
+   }
+   #contactMain {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        &[type=text],
+        &[type=email] {
+            width: 100%;
+        }
+
+        &[type=email] {
+        margin-left: 0;
+        }
+    }
+
+    
    }
 }
 
