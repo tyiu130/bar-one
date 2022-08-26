@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar One</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./script.js"></script>
 
 <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/c22b61aa01.js" crossorigin="anonymous"></script>
@@ -16,17 +17,18 @@
 
 </head>
 <body>
+    <a href="#indexAbout" class="skipLink">Skip to the main content.</a>
     <header class="indexHeader">
         <nav class="navBar">
             <div class="wrapper">
 
-                <button id="hamburger">
+                <button class="menuIcon" id="hamburger" >
 				    <i class="fa-solid fa-bars"></i>
 			    </button>
 
                 <ul>
                     <li><a class="home" href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#indexAbout">About</a></li>
                     <li><h2>Bar-One</h2></li>
                     <li><a href="./blog.html">Blog</a></li>
                     <li><a href="./contact.html">Contact</a></li>
@@ -53,7 +55,7 @@
 			<nav>
 				<ul class="mainMenu">
 					<li><a href="./index.html">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="#indexAbout">About</a></li>
 					<li><a href="./blog.html">Blog</a></li>
 					<li><a href="./contact.html">Contact</a></li>
 				</ul>
@@ -62,7 +64,7 @@
     </header>
 
     <main>
-        <section class="about">
+        <section id="indexAbout" class="about">
             <div class="wrapper">
                 <ul>
                     <li class="item">

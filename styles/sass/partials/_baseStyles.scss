@@ -97,13 +97,17 @@ footer {
 
 .slideOutNav {
     position: fixed;
-    width: 50%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 300px;
     height: 100%;
     background-color: $quaternary;
     z-index: 30;
-    transform: 0.3s;
+    transition: 0.4s;
     left: -500px;
+
+    &.open {
+        left: 0;
+    }
 
 
     button {

@@ -56,6 +56,12 @@
         min-height: 400px;
         top: -28px;
         left: -20px;
+        transition: 0.3s;
+
+        &:hover {
+            transform: scale(1.1);
+            
+        }
     }
 
     .Box2 {
@@ -69,6 +75,12 @@
         min-height: 400px;
         top: -28px;
         right: -20px;
+        transition: 0.3s;
+
+        &:hover {
+                transform: scale(1.1);
+        
+            }
     }
 
 }

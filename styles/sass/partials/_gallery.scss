@@ -5,10 +5,25 @@
 
         ul {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+
+            li {
+                width: calc((100%/3) - 20px);
+            }
 
             img {
-                width: 98%;
+                width: 100%;
+                transition: 0.3s;
+
+
+                &:nth-child(2) {
+                    margin: 0 20px;
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+
+                }
             }
         }
              

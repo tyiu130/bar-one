@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./script.js"></script>
 
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/c22b61aa01.js" crossorigin="anonymous"></script>
@@ -16,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Chathura:wght@400;700&family=Tulpen+One&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#mainContent" class="skipLink">Skip to the main content.</a>
     <header class="blogHeader">
         <nav class="navBar">
             <div class="wrapper">
@@ -25,11 +27,11 @@
 			    </button>
 
                 <ul>
-                    <li><a class="home" href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a class="home" href="./index.html">Home</a></li>
+                    <li><a href="./index.html#indexAbout">About</a></li>
                     <li><h2>Bar-One</h2></li>
-                    <li><a class="blog" href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="blog" href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div> <!--End of.navBar Wrapper-->
         </nav> <!--End of.navBar div-->
@@ -42,7 +44,7 @@
 			<nav>
 				<ul class="mainMenu">
 					<li><a href="./index.html">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="./index.html#indexAbout">About</a></li>
 					<li><a href="./blog.html">Blog</a></li>
 					<li><a href="./contact.html">Contact</a></li>
 				</ul>
@@ -57,7 +59,7 @@
         </div> <!--End of.headerText div-->
     </header>
     
-    <main class="blogMain">
+    <main id="blogMainContent"class="blogMain">
         <section class="posts">
             <div class="wrapper">
                 <div class="mission">
@@ -92,7 +94,7 @@
                             <img src="./assets/post-image.jpg" alt="Plates of food on table">
                         </div>
 
-                        <div class="menuBox">
+                        <div id="mainContent" class="menuBox">
                             <div class="menuText">
                                 <h2>New menu!</h2>
                                 <h4>Monday January 30, 2019 by Saron</h4>
