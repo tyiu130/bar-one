@@ -1009,6 +1009,9 @@ footer .copyright {
   .plan .planText2 {
     margin-top: 0;
   }
+  .host {
+    padding: 200px 120px 120px 120px;
+  }
   .banner {
     background-position-x: center;
     height: 370px;
