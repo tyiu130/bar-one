@@ -6,11 +6,13 @@
     flex-direction: column; 
     align-items: flex-end;
 
-    h2 {
-            padding-right: 640px;
+        .commentHeading {
+            width: 60%;
         }
+        
+    }
     
-}
+
 
 
 .comment {
@@ -36,6 +38,7 @@
 
 
 .commentForm {
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
 

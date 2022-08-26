@@ -840,8 +840,8 @@ footer .copyright {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-.comments .wrapper h2 {
-  padding-right: 640px;
+.comments .wrapper .commentHeading {
+  width: 60%;
 }
 .comments .comment {
   width: 60%;
@@ -860,6 +860,7 @@ footer .copyright {
   padding-bottom: 80px;
 }
 .comments .commentForm {
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -994,7 +995,10 @@ footer .copyright {
   width: 100%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1254px) {
+  .navBar {
+    padding-bottom: 200px;
+  }
   .plan .planImg1,
 .plan .planImg2 {
     min-height: 200px;
@@ -1057,6 +1061,56 @@ footer .copyright {
   }
   .events .eventsText a {
     width: 35%;
+  }
+  .blogHeader h3 {
+    font-size: 150px;
+    font-size: 7.5rem;
+    padding-top: 150px;
+  }
+  .posts .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mission {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .missionImg {
+    width: 100%;
+    left: -100px;
+  }
+  .menu {
+    width: 100%;
+  }
+  .menu div.orangeBox {
+    width: 100%;
+    margin-top: 230px;
+  }
+  .menuBox {
+    width: 100%;
+    padding: 30px;
+    top: -50px;
+  }
+  .comments .wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comments .wrapper h2 {
+    padding-right: 0;
+  }
+  .comments .comment {
+    width: 100%;
+  }
+  .comments .commentForm {
+    width: 100%;
   }
   #contactMain .wrapper {
     -webkit-box-orient: vertical;
@@ -1145,53 +1199,6 @@ footer .copyright {
   }
   .gallery ul li:nth-child(2) {
     margin: 20px 0;
-  }
-  .blogHeader h3 {
-    font-size: 150px;
-    font-size: 7.5rem;
-    padding-top: 150px;
-  }
-  .posts .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .mission {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .missionImg {
-    width: 100%;
-    left: -100px;
-  }
-  .menu {
-    width: 100%;
-  }
-  .menu div.orangeBox {
-    width: 100%;
-    margin-top: 230px;
-  }
-  .menuBox {
-    width: 100%;
-    padding: 30px;
-    top: -50px;
-  }
-  .comments .wrapper {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .comments .wrapper h2 {
-    padding-right: 0;
-  }
-  .comments .comment {
-    width: 100%;
   }
   .logo {
     visibility: visible;

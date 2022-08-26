@@ -1,5 +1,12 @@
-@media (max-width: 1160px) {
+
+
+@media (max-width: 1254px) {
 //index.html
+
+    .navBar {
+            padding-bottom: 200px;
+    }
+
     .plan {
 
         .planImg1,
@@ -85,6 +92,64 @@
             }
         }
     }
+
+    //blog.html
+
+    .blogHeader {
+        h3 {
+            @include fontSize(150);
+            padding-top: 150px;
+        }
+    }
+   .posts {
+        .wrapper {
+            flex-direction: column;
+        }
+   }
+
+   .mission {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .missionImg {
+    width: 100%;
+    left: -100px;
+   }
+
+   .menu {
+    width: 100%;
+
+    div.orangeBox {
+        width: 100%;
+        margin-top: 230px;
+    }
+   }
+
+
+   .menuBox {
+    width: 100%;
+    padding: 30px ;
+    top: -50px;
+   }
+
+   .comments {
+    .wrapper {
+        align-items: center;
+
+        h2 {
+            padding-right: 0;
+        }
+    }
+    .comment {
+        width: 100%;
+    }
+
+     .commentForm {
+        width: 100%;
+    }
+   }
 
 //contact.html
 
@@ -182,59 +247,6 @@
         }
     }
    
-    //blog.html
-
-    .blogHeader {
-        h3 {
-            @include fontSize(150);
-            padding-top: 150px;
-        }
-    }
-   .posts {
-        .wrapper {
-            flex-direction: column;
-        }
-   }
-
-   .mission {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-   }
-
-   .missionImg {
-    width: 100%;
-    left: -100px;
-   }
-
-   .menu {
-    width: 100%;
-
-    div.orangeBox {
-        width: 100%;
-        margin-top: 230px;
-    }
-   }
-
-
-   .menuBox {
-    width: 100%;
-    padding: 30px ;
-    top: -50px;
-   }
-
-   .comments {
-    .wrapper {
-        align-items: center;
-
-        h2 {
-            padding-right: 0;
-        }
-    }
-    .comment {
-        width: 100%;
-    }
-   }
 
    //contact.html
 
