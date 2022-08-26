@@ -1106,8 +1106,8 @@ footer .copyright {
         -ms-flex-align: center;
             align-items: center;
   }
-  .comments .wrapper h2 {
-    padding-right: 0;
+  .comments .wrapper .commentHeading {
+    width: 100%;
   }
   .comments .comment {
     width: 100%;

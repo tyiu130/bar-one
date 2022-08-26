@@ -142,10 +142,11 @@
     .wrapper {
         align-items: center;
 
-        h2 {
-            padding-right: 0;
+        .commentHeading {
+        width: 100%;
         }
     }
+
     .comment {
         width: 100%;
     }
