@@ -602,10 +602,6 @@ footer {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.plan .planImg1:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
 .plan .Box2 {
   margin-right: 20px;
   bottom: -80px;
@@ -617,10 +613,6 @@ footer {
   right: -20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-}
-.plan .planImg2:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .host {
@@ -709,10 +701,6 @@ footer {
 }
 .gallery ul img:nth-child(2) {
   margin: 0 20px;
-}
-.gallery ul img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 footer .copyright {
@@ -815,7 +803,7 @@ footer .copyright {
 }
 
 .menuImg {
-  width: 104%;
+  width: 100%;
   position: relative;
   right: -35px;
   top: -100px;
@@ -1104,6 +1092,20 @@ footer .copyright {
   .navBar ul {
     display: none;
   }
+  .about .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .about ul {
+    width: 100%;
+  }
   .events .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1220,20 +1222,6 @@ footer .copyright {
     position: relative;
     left: 0;
     width: 550px;
-  }
-  .about .wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-  .about ul {
-    width: 100%;
   }
   .banner {
     background-position-x: right;

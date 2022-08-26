@@ -134,6 +134,18 @@
         display: none;
     }
 
+    .about {
+        .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+
+        ul {
+        width: 100%;
+        }
+    }
+
     .events {
         .wrapper {
             flex-direction: column;
@@ -266,18 +278,6 @@
             position: relative;
             left: 0;
             width: 550px;
-        }
-    }
-
-    .about {
-        .wrapper {
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;
-        }
-
-        ul {
-        width: 100%;
         }
     }
 
