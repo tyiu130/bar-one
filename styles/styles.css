@@ -248,11 +248,23 @@ body {
   color: #FFFFFF;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
+a,
+button {
   font-family: "Tulpen One";
+}
+
+h1 {
   font-weight: 400;
   letter-spacing: 2.4px;
-  margin: 0;
   font-size: 261.4px;
   font-size: 13.07rem;
 }
@@ -260,7 +272,6 @@ h1 {
 h2 {
   font-size: 68px;
   font-size: 3.4rem;
-  margin: 0;
 }
 
 h3 {
@@ -269,20 +280,17 @@ h3 {
   font-weight: 700;
   line-height: 94.7px;
   letter-spacing: 2.6px;
-  margin: 0;
 }
 
 h4 {
   font-size: 38px;
   font-size: 1.9rem;
-  margin: 0;
   padding: 0;
 }
 
 p {
   font-size: 39px;
   font-size: 1.95rem;
-  margin: 0;
   line-height: 0.9;
 }
 
@@ -290,7 +298,6 @@ a,
 button {
   font-size: 38px;
   font-size: 1.9rem;
-  font-family: "Tulpen One";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
@@ -590,7 +597,7 @@ footer {
   background-color: #FF8327;
   position: relative;
 }
-.plan .Box1 {
+.plan .box1 {
   margin-left: 20px;
   top: -25px;
 }
@@ -602,7 +609,7 @@ footer {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.plan .Box2 {
+.plan .box2 {
   margin-right: 20px;
   bottom: -80px;
 }
@@ -762,9 +769,7 @@ footer .copyright {
 .missionText {
   padding: 0 30px 30px;
 }
-.missionText .ourMission h2 {
-  line-height: 1;
-}
+.missionText .ourMission h2,
 .missionText .ourMission p {
   line-height: 1;
 }
@@ -1254,5 +1259,93 @@ footer .copyright {
   }
   .gallery ul li:nth-child(2) {
     padding: 20px 0;
+  }
+}
+@media (max-width: 347px) {
+  .navBar {
+    padding-bottom: 150px;
+  }
+  .indexHeader .headerText {
+    text-align: center;
+  }
+  .indexHeader .headerImg img {
+    width: 68%;
+  }
+  .about .wrapper {
+    padding: 50px 0;
+  }
+  .about ul {
+    padding: 0;
+  }
+  .plan .box1 {
+    margin-left: 0;
+    margin-bottom: 20px;
+    top: 0;
+  }
+  .plan .planImg1 {
+    top: 0;
+    left: 0;
+  }
+  .plan .box2 {
+    margin-right: 0;
+  }
+  .plan .planImg2 {
+    top: 0;
+    right: 0;
+  }
+  .host {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  .banner {
+    background-position-x: 95rem;
+  }
+  .events .eventsText a {
+    width: 61%;
+  }
+  .blogHeader h3,
+.blogHeader h1 {
+    text-align: center;
+  }
+  .posts .missionText {
+    padding: 0 10px 10px;
+  }
+  .posts .missionImg {
+    left: 0;
+  }
+  .posts .redBox {
+    width: 100%;
+  }
+  .posts .menu div.orangeBox {
+    margin-top: 150px;
+  }
+  .posts .menuBox {
+    padding: 10px;
+    right: 0;
+    margin-top: 35px;
+  }
+  .posts .menuImg {
+    right: 0;
+    top: -50px;
+  }
+  .comments .commentForm {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comments input[type=text], .comments input[type=email] {
+    width: 100%;
+  }
+  .comments input[type=email] {
+    margin-left: 0;
+  }
+  .contactText .wrapper {
+    text-align: center;
+  }
+  #contactMain form {
+    padding: 20px 10px;
+    top: -5px;
+    left: -5px;
   }
 }

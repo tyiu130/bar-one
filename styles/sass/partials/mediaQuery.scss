@@ -1,18 +1,16 @@
-
-
 @media (max-width: 1254px) {
-//index.html
+    //index.html
 
     .navBar {
-            padding-bottom: 200px;
+        padding-bottom: 200px;
     }
 
     .plan {
 
         .planImg1,
         .planImg2 {
-                min-height: 200px;
-            }
+            min-height: 200px;
+        }
 
         .planText1 {
             margin-top: 0;
@@ -35,42 +33,43 @@
     .events {
         .eventsText {
             a {
-                width: 31%; 
+                width: 31%;
             }
         }
     }
 }
 
 @media (max-width: 1019px) {
-//index.html
+
+    //index.html
     .plan {
         .planContainer {
-        flex-direction: column;
-        
+            flex-direction: column;
+
             div {
                 width: 100%;
             }
-    
+
         }
 
         .planText1 {
             padding-right: 0;
             text-align: center;
         }
-    
+
         .planText2 {
             padding-left: 0;
             padding-top: 50px;
             text-align: center;
-    
+
             h2 {
                 text-align: center;
             }
-    
+
             .planBtn {
                 justify-content: center;
                 align-items: center;
-    
+
             }
         }
 
@@ -79,7 +78,7 @@
             width: 100%;
         }
     }
-    
+
 
     .host {
         padding-left: 0;
@@ -92,7 +91,7 @@
             padding-right: 0;
 
             a {
-                width: 35%; 
+                width: 35%;
             }
         }
     }
@@ -105,93 +104,95 @@
             padding-top: 150px;
         }
     }
-   .posts {
+
+    .posts {
         .wrapper {
             flex-direction: column;
         }
-   }
-
-   .mission {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-   }
-
-   .missionImg {
-    width: 100%;
-    left: -100px;
-   }
-
-   .menu {
-    width: 100%;
-
-    div.orangeBox {
-        width: 100%;
-        margin-top: 230px;
     }
-   }
 
-
-   .menuBox {
-    width: 100%;
-    padding: 30px ;
-    top: -50px;
-   }
-
-   .comments {
-    .wrapper {
-        align-items: center;
-
-        .commentHeading {
+    .mission {
         width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .missionImg {
+        width: 100%;
+        left: -100px;
+    }
+
+    .menu {
+        width: 100%;
+
+        div.orangeBox {
+            width: 100%;
+            margin-top: 230px;
         }
     }
 
-    .comment {
+
+    .menuBox {
         width: 100%;
+        padding: 30px;
+        top: -50px;
     }
 
-     .commentForm {
-        width: 100%;
-    }
-   }
+    .comments {
+        .wrapper {
+            align-items: center;
 
-//contact.html
+            .commentHeading {
+                width: 100%;
+            }
+        }
 
-#contactMain {
-    .wrapper {
-        flex-direction: column;
-    }
+        .comment {
+            width: 100%;
+        }
 
-    .contactIcons {
-        text-align: center;
-        
-    }
-
-    ul {
-        justify-content: center;
-        margin-top: 50px;
+        .commentForm {
+            width: 100%;
+        }
     }
 
-    .contactText {
-        margin-bottom: 150px;
-    }
+    //contact.html
 
-    
-}
+    #contactMain {
+        .wrapper {
+            flex-direction: column;
+        }
+
+        .contactIcons {
+            text-align: center;
+
+        }
+
+        ul {
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .contactText {
+            margin-bottom: 150px;
+        }
+
+
+    }
 }
 
 
 @media (max-width: 768px) {
-// index.html
+
+    // index.html
     .indexHeader {
-            .headerImg {
-                position: relative;
-                right: 0;
-                width: 550px;
-            }
+        .headerImg {
+            position: relative;
+            right: 0;
+            width: 550px;
         }
-    
+    }
+
     #hamburger {
         visibility: visible;
     }
@@ -212,7 +213,7 @@
         }
 
         ul {
-        width: 100%;
+            width: 100%;
         }
     }
 
@@ -246,45 +247,48 @@
                 width: 100%;
 
                 &:nth-child(2) {
-                        margin: 20px 0;
-                    }
+                    margin: 20px 0;
+                }
             }
         }
     }
-   
 
-   //contact.html
 
-   .logo {
-    visibility: visible;
-   }
+    //contact.html
 
-   .contactHeader {
-    
+    .logo {
+        visibility: visible;
+    }
+
+    .contactHeader {
+
         h3 {
-                @include fontSize(150);
-                padding-top: 150px;
+            @include fontSize(150);
+            padding-top: 150px;
+        }
+
+    }
+
+    #contactMain {
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+
+            &[type=text],
+            &[type=email] {
+                width: 100%;
             }
-    
-   }
-   #contactMain {
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-    input {
-        &[type=text],
-        &[type=email] {
-            width: 100%;
+
+            &[type=email] {
+                margin-left: 0;
+            }
         }
 
-        &[type=email] {
-        margin-left: 0;
-        }
-    }
 
-    
-   }
+    }
 }
 
 @media (max-width: 550px) {
@@ -302,6 +306,7 @@
         background-position-x: right;
 
     }
+
     .events {
         .eventsText {
             padding-bottom: 50px;
@@ -312,6 +317,7 @@
             }
         }
     }
+
     .eventsImg {
         margin-top: 50px;
     }
@@ -325,4 +331,140 @@
             }
         }
     }
+}
+
+@media (max-width:347px) {
+//header
+
+    .navBar {
+        padding-bottom: 150px;
+    }
+
+    .indexHeader {
+        .headerText {
+            text-align: center;
+        }
+
+        .headerImg img{
+            width: 68%;
+        }
+    }
+
+    .about {
+        .wrapper {
+            padding: 50px 0;
+        }
+        ul {
+            padding: 0;
+        }
+    }
+
+    .plan {
+        .box1 {
+            margin-left: 0;
+            margin-bottom: 20px;
+            top: 0;
+        }
+
+        .planImg1 {
+            top: 0;
+            left: 0;
+        }
+
+        .box2 {
+            margin-right: 0;
+        }
+
+        .planImg2 {
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .host {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .banner {
+        background-position-x: 95rem;
+    }
+
+    .events {
+        .eventsText{
+            a {
+                width: 61%;
+            }
+        }
+    }
+
+//blog
+.blogHeader {
+    h3,
+    h1 {
+        text-align: center;
+    }
+}
+.posts {
+    .missionText {
+        padding: 0 10px 10px;
+    }
+
+    .missionImg {
+        left: 0;
+    }
+
+    .redBox {
+        width: 100%;
+    }
+
+    .menu {
+        div.orangeBox {
+            margin-top: 150px;
+        }
+    }
+
+    .menuBox {
+        padding: 10px;
+        right:0;
+        margin-top: 35px;
+    }
+
+    .menuImg {
+        right: 0;
+        top: -50px;
+    }
+}
+
+.comments {
+    .commentForm {
+        flex-direction: column;
+    }
+
+    input {
+        &[type=text],
+        &[type=email] {
+            width: 100%;
+        }
+
+        &[type=email] {
+            margin-left: 0;
+        }
+    }
+}
+
+//contact
+
+.contactText {
+    .wrapper {
+        text-align: center;
+    }
+}
+#contactMain {
+    form {
+        padding: 20px 10px;
+        top: -5px;
+        left: -5px;
+    }
+}
 }

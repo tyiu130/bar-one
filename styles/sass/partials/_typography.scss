@@ -13,37 +13,45 @@ body {
     
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h1,
+a,
+button {
     font-family: $secondaryText;
+}
+
+h1 {
     font-weight: 400;
-    letter-spacing: 2.4px;
-    margin: 0;   
+    letter-spacing: 2.4px;  
     @include fontSize(261.4);
 }
 
 h2 {
     @include fontSize(68);
-    margin: 0;
 }
 
 h3 {
     @include fontSize(83.2);
     font-weight: 700;
     line-height: 94.7px;
-    letter-spacing: 2.6px;
-    margin: 0;  
+    letter-spacing: 2.6px;  
 }
 
 h4 {
     @include fontSize(38);
-    margin: 0;
     padding: 0;
     
 }
 
 p {
     @include fontSize(39);
-    margin: 0;
     line-height: 0.9;
     
 }
@@ -51,7 +59,6 @@ p {
 a,
 button {
     @include fontSize(38);
-    font-family: $secondaryText;
     line-height: 29px;
     letter-spacing: 1.9px;
 }

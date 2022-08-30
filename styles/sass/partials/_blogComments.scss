@@ -51,6 +51,8 @@ input {
     color: $primary;
     margin-top: 30px;
 
+   
+
     &[type=text],
     &[type=email] {
         width: calc((100%/1.9) - 6%);
