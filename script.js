@@ -1,3 +1,6 @@
+//followed code from the Ecommerce Code Along in Module 1
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const hamburgerButton = document.querySelector('#hamburger');
 
