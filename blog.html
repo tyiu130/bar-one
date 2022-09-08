@@ -157,5 +157,14 @@
             <h4>Copyright ©  2019 HackerYou</h4>
         </div>
     </footer>
+
+    <script>
+        const formElement = document.querySelector('form');
+
+        formElement.addEventListener('submit', function(event){
+            event.preventDefault();
+            console.log('form works')
+        });
+    </script>
 </body>
 </html>
