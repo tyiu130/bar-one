@@ -18,4 +18,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     })
 
+
+// Blog Form
+
+const form = document.querySelector('#form');
+const userInput = document.querySelector('#input');
+
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    console.log("Submitted")
+});
+
   
