@@ -20,14 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Blog Form
-document.addEventListener("DOMContentLoaded", () => {
+
 
     const form = document.querySelector('form');
     const userInput = document.querySelector('input[type=text]');
     const userEmail = document.querySelector('#email');
     const userComment = document.querySelector('#comment');
-    const postComment = document.querySelector('newComments')
-    const submitDate = Date();
+    const postComment = document.querySelector('newComments');
+    const submitButton = document.querySelector('.formButton');
+    
 
     form.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -37,18 +38,19 @@ document.addEventListener("DOMContentLoaded", () => {
         
         //Display name, date and comment ontop of form
 
-        //make a ul in the comment div
-        const newList = document.createElement('ul');
-        
+
         //create li element to add to ul div
-
         //add text to li element
-
-        //append the ul to the div
-
+        //append the li to div
         //display the new content with .innerhtml? onto page
+        const newList = document.createElement('li');
+        newList.innerHTML = userComment.value;
+        document.querySelector('.newComments').appendChild(newList);
+        
+
+        
         
     })
 
-});
+
 
