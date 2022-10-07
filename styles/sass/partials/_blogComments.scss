@@ -73,9 +73,10 @@ input {
     }
 
     .newComments {
-        border: 2px red solid;
-        height: 100px;
-        width: 450px;
+        
+        list-style: none;
+        @include fontSize(39);
+        line-height: 0.9;
     }
 }
 

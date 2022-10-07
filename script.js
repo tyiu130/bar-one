@@ -1,4 +1,4 @@
-//followed code from the Ecommerce Code Along in Module 1
+//hamburger menu: followed code from the Ecommerce Code Along in Module 1
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const userComment = document.querySelector('#comment');
     const postComment = document.querySelector('newComments');
     const submitButton = document.querySelector('.formButton');
+    const date = new Date();
+    const dateSubmitted = date.toDateString();
     
 
     form.addEventListener('submit', function(e) {
@@ -37,17 +39,17 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(userComment.value);
         
         //Display name, date and comment ontop of form
-
-
         //create li element to add to ul div
         //add text to li element
         //append the li to div
         //display the new content with .innerhtml? onto page
         const newList = document.createElement('li');
-        newList.innerHTML = userComment.value;
+        newList.innerHTML = `${dateSubmitted} by ${userInput.value}<li>${userComment.value}</li>`;
         document.querySelector('.newComments').appendChild(newList);
-        
 
+        userInput.value = '';
+        userEmail.value = '';
+        userComment.value = '';
         
         
     })

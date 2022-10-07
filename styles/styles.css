@@ -892,9 +892,10 @@ footer .copyright {
   border: 1px solid #FF8327;
 }
 .comments .newComments {
-  border: 2px red solid;
-  height: 100px;
-  width: 450px;
+  list-style: none;
+  font-size: 39px;
+  font-size: 1.95rem;
+  line-height: 0.9;
 }
 
 .contactHeader {
