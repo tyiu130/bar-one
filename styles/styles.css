@@ -892,7 +892,8 @@ footer .copyright {
   border: 1px solid #FF8327;
 }
 .comments .newComments {
-  list-style: none;
+  width: 60%;
+  padding-top: 50px;
   font-size: 39px;
   font-size: 1.95rem;
   line-height: 0.9;

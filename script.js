@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
         //add text to li element
         //append the li to div
         //display the new content with .innerhtml? onto page
-        const newList = document.createElement('li');
-        newList.innerHTML = `${dateSubmitted} by ${userInput.value}<li>${userComment.value}</li>`;
+        const newList = document.createElement('p');
+        newList.innerHTML = `${dateSubmitted} by ${userInput.value}<p>${userComment.value}</p>`;
         document.querySelector('.newComments').appendChild(newList);
 
         userInput.value = '';
