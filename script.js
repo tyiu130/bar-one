@@ -54,5 +54,13 @@ document.addEventListener("DOMContentLoaded", () => {
         
     })
 
+//Index.html Plan Ahead Button
 
+const modal = document.querySelector('.openModal');
+const open = document.querySelector('.openBtn');
+const close = document.querySelector('.closeBtn');
+
+function togglePopup(){
+    document.querySelector('.openModal').classList.toggle('active');
+}
 
