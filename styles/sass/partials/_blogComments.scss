@@ -72,5 +72,11 @@ input {
     
     }
 
+    .newComments {
+        width: 60%;
+        padding-top: 50px;
+        @include fontSize(39);
+        line-height: 0.9;
+    }
 }
 
