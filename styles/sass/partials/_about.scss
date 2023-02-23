@@ -1,12 +1,12 @@
 .about {
-    
-    
+
+
     .wrapper {
         display: flex;
         justify-content: column;
         flex-wrap: wrap;
         padding: 150px 0 80px;
-       
+
     }
 
     ul {
@@ -14,8 +14,8 @@
         justify-content: column;
         width: calc(100%/2);
         padding: 0 20px;
-        
-    
+
+
     }
 
     .item {
@@ -36,12 +36,12 @@
         color: $primary;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     li:first-child {
         margin-bottom: 200px;
     }
 
-    
+
 }
