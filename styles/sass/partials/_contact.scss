@@ -1,13 +1,11 @@
-
-
 .contactHeader {
     background-image: url(/assets/contact-header-1.jpg);
     background-size: cover;
     min-height: 500px;
     background-position: center;
-   
-    
-    
+
+
+
 
     .navBar {
         padding-bottom: 0;
@@ -36,7 +34,7 @@
 
     .wrapper {
         display: flex;
-        
+
     }
 
     .formOrangeBox {
@@ -48,9 +46,9 @@
 
     .contactIcons {
         flex-grow: 2;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     ul {
@@ -83,30 +81,30 @@
     }
 
     input {
-    background-color: $quinary;
-    border: 0;
-    color: $primary;
-    margin-top: 30px;
+        background-color: $quinary;
+        border: 0;
+        color: $primary;
+        margin-top: 30px;
 
-    &[type=text],
-    &[type=email] {
-        width: calc((100%/1.9) - 6%);
-        padding: 0 0 20px 30px;
-        border-bottom: 1px solid $primary;
+        &[type=text],
+        &[type=email] {
+            width: calc((100%/1.9) - 6%);
+            padding: 0 0 20px 30px;
+            border-bottom: 1px solid $primary;
+        }
+
+        &[type=email] {
+            margin-left: 6%;
+        }
+
+        &[type=message] {
+            width: 100%;
+            padding: 20px 0 160px 30px;
+            border: 1px solid $primary;
+        }
+
     }
 
-    &[type=email] {
-        margin-left: 6%;
-    }
-
-    &[type=message] {
-        width: 100%;
-        padding: 20px 0 160px 30px;
-        border: 1px solid $primary;
-    }
-    
-}
- 
 }
 
 .contactFooter {

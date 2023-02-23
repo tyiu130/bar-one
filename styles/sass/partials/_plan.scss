@@ -18,13 +18,13 @@
     }
 
     .planText1 {
-        padding-right:12%;
+        padding-right: calc(100%/8);
         margin-top: 120px;
        
     }
 
     .planText2 {
-        padding-left: 12%;
+        padding-left: calc(100%/8);
         margin-top: 130px;
         display: flex;
         flex-direction: column;
